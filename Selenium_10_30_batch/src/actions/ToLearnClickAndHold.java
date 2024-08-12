@@ -20,7 +20,6 @@ public class ToLearnClickAndHold {
 		WebElement eyeIcon = driver.findElement(By.xpath("//div[@class='showPassword shownhide']"));
 		Actions act=new Actions(driver);
 		act.clickAndHold(eyeIcon).perform();
-		act.clickAndHold(eyeIcon).perform();
 	}
 
 }
